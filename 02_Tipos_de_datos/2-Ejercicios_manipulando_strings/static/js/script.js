@@ -82,7 +82,8 @@ console.log(`Su casa es la ${numeroCasaTexto} es de tipo ${typeof numeroCasaText
 let nombre2 = "Diego"
 let apellido = "Rojas"
 let nombre_completo = "Diego Rojas"
-console.log(`Su nombre es ${nombre_completo.toUpperCase()} y tiene una cantidad de ${nombre_completo.length} caracteres `)
+console.log(`Su nombre es ${nombre_completo.toUpperCase()} y tiene una cantidad de ${nombre_completo.length}
+caracteres `)
 
 // 8️⃣ Verificación de contenido
 // Crea la variable:
@@ -118,6 +119,5 @@ console.log(texto2 , `,${texto2.toLowerCase()} , ${texto2.toUpperCase()} y tiene
 let Curso = "4C"
 let año = "2026"
 let año_texto = String(año)
-let Mensaje_completo = "El curso 4C del año "
-console.log(`${Mensaje_completo.toUpperCase()}${año_texto} ${año_texto.length}`)
-
+let Mensaje_completo = "El curso 4C del año 2026 y los caracteres de año son de "
+console.log(`${Mensaje_completo.toUpperCase()}${año_texto.length}`)
