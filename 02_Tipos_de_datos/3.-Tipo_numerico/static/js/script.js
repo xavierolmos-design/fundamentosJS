@@ -46,4 +46,18 @@ let sueldo = horas * valorHora;
 console.log("El sueldo base es: " +sueldo);
 //7.- Redondeo de numeros
 Math.round(4,6); //5
-console,log("Redondeando 4.6: " + Math.round(4.6))
+console.log("Redondeando 4.6: " + Math.round(4.6))
+console.log("Redondeando 4.6: " + Math.floor(4.6))
+//8.- Numeros Aleatorios
+let aleatorio = Math.random(); // entre 0 y 1
+let dado = Math.floor(Math.random()*6) + 1; //1 al 6
+console.log(`Tirar dados: ${dado}`);
+
+//9.- Comparaciones numericas
+let a = 10;
+let b = 5;
+console.log(a > b);//true
+console.log(a < b);//false
+console.log(a === 10); //true //(===) estricta igual
+console.log(b === 3); //false
+
